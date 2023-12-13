@@ -1,0 +1,53 @@
+body{
+    background-image: url("1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    
+}
+
+.head h1{
+    background-color: blue;
+}
+/* .form .form-control{
+    background-color:rgb(219,195,195);
+    height:10%;
+    width: 20px;
+    border-radius: 1px;
+    padding: 10px;
+    margin-left:3px;
+    background-position: center;
+    position:relative;
+    width:99%;
+   
+}  */
+/* 
+.form .form-select {
+   
+    
+    height: 30px;
+    width: 100%;
+    border-radius: 1px;
+    padding: 5px;
+    margin-left: 3px;
+    background-position: center;
+    position: relative;
+} */
+
+.form .form-label{
+    color:rgb(255, 255, 255);
+    margin-left:5px;
+    
+}
+.form .form-control:hover{
+    background-color: rgb(219,195,195);
+}
+.form .btn{
+    background-color:rgb(8, 1, 33);
+}
+.form .btn{
+    margin:20px;
+    margin-left: 390px;
+}

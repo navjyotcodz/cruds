@@ -1,0 +1,77 @@
+body{
+    background: url('1.jpg') no-repeat rgba(0, 0,0, 0.5); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+ }
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    
+}
+.center .container{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 1px;
+    padding: 20px;
+    margin-left:5px;
+    background-position: center;
+
+    position:relative;
+    width: 500px;
+    backdrop-filter: blur(.2rem);
+   
+      
+
+}
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: aliceblue;
+   
+   
+}
+.form{
+    padding-bottom: 15px;
+    margin:0 20px;
+    text-align: center;
+}
+.textfield{
+    width: 100%;
+    height:50px;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 232);
+    border-radius: 1px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 7px 0;
+}
+.btn{
+    width:100%;
+    height:50px;
+    background-color: rgb(244, 194, 194);
+    border-radius: 5px;
+    font-size: 20px;
+    margin:7px 0;
+    border:0;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(101, 138, 138);
+}
+.form .signup{
+    color:white;
+}
+.form .signup a{
+    color:white;
+}
+.form .cpassword{
+    color:white;
+}
+.form .cpassword a{
+    color:white;
+}
